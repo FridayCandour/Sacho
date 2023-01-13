@@ -1,0 +1,19 @@
+{
+  "name": "sacho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && echo '/* /index.html 200' >> dist/_redirects",
+    "preview": "vite preview",
+    "replay": "npm run build && npm run preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cradova": "^1.1.1",
+    "vite": "^4.0.3"
+  }
+}
